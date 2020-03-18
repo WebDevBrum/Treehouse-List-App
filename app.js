@@ -7,7 +7,13 @@ const listUl = listDiv.querySelector('ul'); // notice how query selector was use
 const addItemInput = document.querySelector('input.addItemInput');
 const addItemButton = document.querySelector('button.addItemButton');
 const lis = listUl.children;
+const firstListItem = listUl.firstElementChild;
+const lastListItem = listUl.lastElementChild;
 // const removeItemButton = document.querySelector('button.removeItemButton');
+
+// firstListItem.style.backgroundColor = 'lightskyblue';
+// lastListItem.style.backgroundColor = 'lightsteelblue';
+// this was an example
 
 function attachListItemButtons(li) {
     let up = document.createElement('button')
